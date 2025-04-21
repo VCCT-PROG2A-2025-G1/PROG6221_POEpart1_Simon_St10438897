@@ -12,3 +12,5 @@ C:\work\prog\POEpart1\POEpart1\obj\Debug\POEpart1.csproj.AssemblyReference.cache
 C:\work\prog\POEpart1\POEpart1\obj\Debug\POEpart1.csproj.CoreCompileInputs.cache
 C:\work\prog\POEpart1\POEpart1\obj\Debug\POEpart1.exe
 C:\work\prog\POEpart1\POEpart1\obj\Debug\POEpart1.pdb
+C:\work\prog\POEpart1\POEpart1\obj\Debug\POEpart1.csproj.GenerateResource.cache
+C:\work\prog\POEpart1\POEpart1\obj\Debug\POEpart1.Properties.Resources.resources
