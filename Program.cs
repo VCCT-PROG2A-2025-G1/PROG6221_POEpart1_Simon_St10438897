@@ -95,7 +95,6 @@ namespace POEpart1
                     Console.WriteLine("I'm here to help you with your online safety questions.");
                     Console.ResetColor();
                     Console.WriteLine("----------------------------------------------------------------------------------------------------------------------");
-                    
                     break;
                 }
             }
@@ -185,7 +184,15 @@ namespace POEpart1
                             Console.WriteLine("----------------------------------------------------------------------------------------------------------------------");
                             break;
                         }
-                        else if (string.IsNullOrWhiteSpace(anotherQuestion) || anotherQuestion.Any(char.IsDigit))
+                        else if (anotherQuestion == "no")
+                        {
+                            Console.ForegroundColor = ConsoleColor.Green;
+                            Console.WriteLine($"Thank you for using the Cyber Chat {name}! Stay safe online!");
+                            Console.ResetColor();
+                            Environment.Exit(0);
+                            
+                        }
+                        else if (string.IsNullOrWhiteSpace(anotherQuestion) || anotherQuestion.Any(char.IsDigit)) 
                         {
                             //If the user enters an invalid response, display an error message
                             //Prompts the user to enter a valid response
@@ -194,13 +201,6 @@ namespace POEpart1
                             Console.WriteLine($"[Error]: {name}, Please enter a valid question and don't include numbers.");
                             Console.ResetColor();
                             Console.WriteLine("----------------------------------------------------------------------------------------------------------------------");
-                        }
-                        else
-                        {
-                            Console.ForegroundColor = ConsoleColor.Green;
-                            Console.WriteLine($"Thank you for using the Cyber Chat {name}! Stay safe online!");
-                            Console.ResetColor();
-                            Environment.Exit(0);
                         }
                     }
                     
