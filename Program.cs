@@ -240,7 +240,7 @@ namespace POEpart1
                             //Prompts the user to enter a valid response
                             Console.ForegroundColor = ConsoleColor.Red;
                             Console.WriteLine();
-                            Console.WriteLine($"[Error]: {name}, Please enter a valid question and don't include numbers.");
+                            Console.WriteLine($"[Error]: {name}, Please enter a valid respone (yes/no) and don't include numbers.");
                             Console.ResetColor();
                             Console.WriteLine("----------------------------------------------------------------------------------------------------------------------");
                         }
