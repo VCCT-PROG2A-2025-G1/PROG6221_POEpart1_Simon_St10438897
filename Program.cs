@@ -18,6 +18,7 @@ namespace POEpart1
 
     internal class Program
     {
+        //Global variable
         static string name; //Global variable for the name of the user
 
         static void Main(string[] args)
