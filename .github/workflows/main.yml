@@ -20,10 +20,10 @@ jobs:
       uses: microsoft/setup-msbuild@v1.3.1
 
     - name: Restore NuGet packages (if used)
-      run: nuget restore POEpart1.sln  # Replace with your actual solution filename
+      run: nuget restore POEpart1.csproj  # Replace with your actual solution filename
 
     - name: Build with MSBuild
-      run: msbuild POEpart1.sln /p:Configuration=Release
+      run: msbuild POEpart1.csproj /p:Configuration=Release
 
     - name: Success message
       run: echo "✅ Build completed successfully!"
