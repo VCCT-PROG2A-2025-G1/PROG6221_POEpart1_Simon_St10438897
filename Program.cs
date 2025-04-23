@@ -27,6 +27,8 @@ namespace POEpart1
             Cyperchat();
         }
 
+        //Method: PlaySound
+        //Plays the gerrting sound when the program starts
         //Method inspired by How to Play Music In C# (Simple)
         public static void PlaySound(string soundFilePath)
         {
@@ -39,11 +41,13 @@ namespace POEpart1
             }
             catch(Exception ex) 
             {
+                //Error handling for the sound file
                 Console.WriteLine($"Error playing sound: {ex.Message}");
             }
             
         }
-
+        //Method: DisplayLogo
+        //Displays the ASCII art logo of the program
         //Method created by ChatGPT to display ASCII art
         static void DisplayLogo()
         {
@@ -57,27 +61,40 @@ namespace POEpart1
             ");
         }
 
+        //Method: Greeting
+        //Greets the user and asks for their name
         static void Greeting()
         {
+            //displays the logo
             DisplayLogo();
 
-            Console.WriteLine("--------------------------------------------------");
-            Console.WriteLine("           Welcome to the Cyber Chat!");
-            Console.WriteLine("--------------------------------------------------");
+            Console.WriteLine("----------------------------------------------------------------------------------------------------------------------");
+            Console.WriteLine("                                             Welcome to the Cyber Chat!");
+            Console.WriteLine("----------------------------------------------------------------------------------------------------------------------");
+
+            //Loops until a valid name is entered
             while (true)
             {
+                Console.ForegroundColor = ConsoleColor.Green; //idea to change colour was from ChatGPT
                 Console.Write("Please enter your name: ");
+                Console.ResetColor();
                 name = Console.ReadLine();
+                //Checks if the name is empty or contains numbers
                 if (string.IsNullOrWhiteSpace(name) || name.Any(char.IsDigit))
                 {
-                    Console.WriteLine("Please enter a valid name and don't include numbers.");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("[Error]: Please enter a valid name and don't include numbers.");
+                    Console.ResetColor();
                 }
                 else
                 {
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine();
                     Console.WriteLine($"Hello, {name}! I'm your virtual assistant for online safety.");
                     Console.WriteLine("I'm here to help you with your online safety questions.");
-                    Console.WriteLine();
-                    Console.WriteLine("--------------------------------------------------");
+                    Console.ResetColor();
+                    Console.WriteLine("----------------------------------------------------------------------------------------------------------------------");
+                    
                     break;
                 }
             }
@@ -93,37 +110,43 @@ namespace POEpart1
                 { "how are you", "I'm doin' very well! Thanks for asking!" }, //I made
                 { "what is your purpose", "My purpose is to help you educate you on cybersequrity related questions." }, //I made
                 { "what can I ask you about", "You can ask me about anything cybersecurity related, such as: What are passwords?" }, //I made
-                { "password", "Remember, always use strong, unique passwords for your accounts." },
-                { "phishing", "Be cautious with emails asking for personal information. Always verify the sender!" },
-                { "two-factor authentication", "Enable two-factor authentication (2FA) on your accounts for an added layer of security." },
-                { "malware", "Ensure you have updated anti-virus software to protect against malware and other malicious software." },
-                { "vpn", "Use a VPN (Virtual Private Network) when browsing on public Wi-Fi to secure your data." },
-                { "firewall", "Make sure your firewall is enabled to protect your device from unauthorized access." },
-                { "ransomware", "Never click on suspicious links or open unexpected attachments to avoid ransomware attacks." },
-                { "data encryption", "Use data encryption to secure sensitive information, both when stored and in transit." },
-                { "social engineering", "Be wary of unsolicited calls or messages asking for personal or financial information." },
-                { "software updates", "Always install software and security updates promptly to fix vulnerabilities in your system." },
-                { "backup", "Regularly back up your important data to ensure you can recover it in case of an attack or system failure." },
-                { "password manager", "Consider using a password manager to store and manage your passwords securely." },
-                { "strong passwords", "Create passwords that are at least 12 characters long, using a mix of letters, numbers, and special characters." },
-                { "public wifi", "Avoid accessing sensitive accounts or making transactions when using public Wi-Fi networks."}
+                { "virus", "A virus is a type of malicious software designed to spread from one device to another, often damaging systems or stealing data." },
+                { "password", "A password is a secret word or phrase used to protect your accounts. Always use strong, unique passwords to keep your accounts secure." },
+                { "phishing", "Phishing is a type of cyberattack where scammers try to trick you into giving away personal information, often through fake emails or websites pretending to be legitimate." },
+                { "two-factor authentication", "Two-factor authentication (2FA) is a security feature that requires two forms of identification, such as a password and a one-time code, to access your account. It adds an extra layer of protection." },
+                { "malware", "Malware refers to malicious software designed to harm your device or steal information. This includes viruses, worms, ransomware, and spyware." },
+                { "vpn", "A VPN, or Virtual Private Network, is a tool that creates a secure connection over the internet, helping to protect your online privacy, especially when using public Wi-Fi." },
+                { "firewall", "A firewall is a security system that monitors and controls incoming and outgoing network traffic, blocking unauthorized access to your device or network." },
+                { "ransomware", "Ransomware is a type of malware that locks or encrypts your data and demands payment to unlock it. Never pay the ransom — always keep backups and avoid suspicious links or attachments." },
+                { "data encryption", "Data encryption is the process of converting information into a secure format so that only authorized people can access it. It helps keep your data safe, both when stored and when sent over the internet." },
+                { "social engineering", "Social engineering is when attackers manipulate people into giving away confidential information, often by pretending to be trustworthy individuals like tech support or bank employees." },
+                { "software updates", "Software updates are new versions of programs that fix bugs and security flaws. Always keep your software up to date to protect your device from known vulnerabilities." },
+                { "backup", "A backup is a copy of your important data stored separately from your main device. Backing up regularly helps you recover your data if your system fails or gets attacked." },
+                { "password manager", "A password manager is a secure tool that helps you create, store, and manage strong, unique passwords for your accounts, so you don’t have to remember them all yourself." },
+                { "strong passwords", "Strong passwords are long (at least 12 characters) and include a mix of uppercase and lowercase letters, numbers, and special symbols. Avoid using personal info like birthdays or names." },
+                { "public wifi", "Public Wi-Fi refers to wireless networks available in places like cafes, airports, or malls. Avoid logging into sensitive accounts or making financial transactions over public Wi-Fi without using a VPN." }
             };
             //-------------------------------------------------
 
+            //Main loop where questions are asked and answered
             //Only works with one question at a time, so no two questions at the same time
             while (true)
             {
-
                 Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.Write($"Please ask your question {name}: ");
+                Console.ResetColor();
 
-
+                //Takes the user input and converts it to lowercase
                 string question = Console.ReadLine().ToLower();
 
+                //Checks if the question is empty or contains numbers
                 if (string.IsNullOrWhiteSpace(question) || question.Any(char.IsDigit))
                 {
-                    Console.WriteLine("--------------------------------------------------");
+                    Console.WriteLine("----------------------------------------------------------------------------------------------------------------------");
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine($"{name}, Please enter a valid question and don't include numbers.");
+                    Console.ResetColor();
                     continue;
                 }
 
@@ -131,56 +154,98 @@ namespace POEpart1
                 question = Regex.Replace(question, @"[^\w\s]", "");
 
                 Console.WriteLine();
-                Console.WriteLine("--------------------------------------------------");
+                Console.WriteLine("----------------------------------------------------------------------------------------------------------------------");
 
                 //Generated by ChatGPT to check if the question contains any of the keys in the dictionary
                 string matchKey = responses.Keys.FirstOrDefault(k => question.Contains(k));
 
                 if (matchKey != null)
                 {
+                    //If a match is found, display the answer
                     Console.WriteLine();
+                    Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine($"Answer: {responses[matchKey]}");
+                    Console.ResetColor();
                     Console.WriteLine();
-                    Console.WriteLine("--------------------------------------------------");
-                    Console.WriteLine($"Would you like to ask another question {name}? (yes/no)");
-                    Console.Write("Enter: ");
+                    Console.WriteLine("----------------------------------------------------------------------------------------------------------------------");
 
-                    string anotherQuestion = Console.ReadLine().ToLower();
-                    Console.WriteLine("--------------------------------------------------");
-                    if (anotherQuestion == "yes")
+                    //Asks if the user wants to ask another question
+                    while (true)
                     {
-                        continue;
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine($"Would you like to ask another question {name}? (yes/no)");
+
+                        Console.ResetColor();
+                        Console.Write("Enter: ");
+                        string anotherQuestion = Console.ReadLine().ToLower();
+                        
+                        if (anotherQuestion == "yes")
+                        {
+                            Console.WriteLine("----------------------------------------------------------------------------------------------------------------------");
+                            break;
+                        }
+                        else if (string.IsNullOrWhiteSpace(anotherQuestion) || anotherQuestion.Any(char.IsDigit))
+                        {
+                            //If the user enters an invalid response, display an error message
+                            //Prompts the user to enter a valid response
+                            Console.WriteLine();
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine($"[Error]: {name}, Please enter a valid question and don't include numbers.");
+                            Console.ResetColor();
+                            Console.WriteLine("----------------------------------------------------------------------------------------------------------------------");
+                        }
+                        else
+                        {
+                            Console.ForegroundColor = ConsoleColor.Green;
+                            Console.WriteLine($"Thank you for using the Cyber Chat {name}! Stay safe online!");
+                            Console.ResetColor();
+                            Environment.Exit(0);
+                        }
                     }
-                    else if (string.IsNullOrWhiteSpace(anotherQuestion) || anotherQuestion.Any(char.IsDigit))
-                    {
-                        Console.WriteLine();
-                        Console.WriteLine($"{name}, Please enter a valid question and don't include numbers.");
-                    }
-                    else
-                    {
-                        Console.WriteLine($"Thank you for using the Cyber Chat {name}! Stay safe online!");
-                        break;
-                    }
+                    
                 }
                 else
                 {
+                    //If no match is found, display a message indicating that the question is not recognized
+                    Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.WriteLine($"I'm sorry {name}, I don't have an answer for that question.");
-                    Console.WriteLine("If you want to ask another question, please type 'yes'. If you want to exit, type 'no'.");
+                    Console.ResetColor();
+                    while (true)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+                        Console.WriteLine("If you want to ask another question, please type 'yes'.");
+                        Console.WriteLine("If you want to exit, please type 'no'.");
+                        Console.WriteLine();
+                        Console.Write("Enter: ");
+                        Console.ResetColor();
+                        string yn = Console.ReadLine().ToLower();
 
-                    string yn = Console.ReadLine().ToLower();
-                    if (yn == "yes")
-                    {
-                        Console.Write($"Please ask your question {name}:  ");
+                        if (yn == "yes")
+                        {
+                            //If the user wants to ask another question, break the loop and continue
+                            Console.WriteLine("----------------------------------------------------------------------------------------------------------------------");
+                            break;
+                        }
+                        else if (yn == "no")
+                        {
+                            //If the user wants to exit, display a thank you message and exit the program
+                            Console.ForegroundColor = ConsoleColor.Yellow;
+                            Console.WriteLine($"Thank you {name} for using the Cyber Chat! Stay safe online!");
+                            Console.ResetColor();
+                            Environment.Exit(0);
+                        }
+                        else if (string.IsNullOrWhiteSpace(yn) || yn.Any(char.IsDigit))
+                        {
+                            //If the user enters an invalid response, display an error message
+                            //Prompts the user to enter a valid response
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine();
+                            Console.WriteLine($"[Error]: {name}, Please enter a valid question and don't include numbers.");
+                            Console.ResetColor();
+                            Console.WriteLine("----------------------------------------------------------------------------------------------------------------------");
+                        }
                     }
-                    else if (yn == "no")
-                    {
-                        Console.WriteLine($"Thank you {name} for using the Cyber Chat! Stay safe online!");
-                        break;
-                    }
-                    else if (string.IsNullOrWhiteSpace(yn) || yn.Any(char.IsDigit))
-                    {
-                        Console.WriteLine($"{name}, Please enter a valid question and don't include numbers.");
-                    }
+                    
                 }
             }
         }
