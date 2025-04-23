@@ -1,0 +1,29 @@
+# .github/workflows/main.yml
+
+name: .NET Framework 4.8 Build
+
+on:
+  push:
+    branches: [ "main" ]  # Change if your main branch is called 'master' or another name
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: windows-latest  # Required for .NET Framework
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v1.3.1
+
+    - name: Restore NuGet packages (if used)
+      run: nuget restore POEpart1.sln  # Replace with your actual solution filename
+
+    - name: Build with MSBuild
+      run: msbuild POEpart1.sln /p:Configuration=Release
+
+    - name: Success message
+      run: echo "✅ Build completed successfully!"
