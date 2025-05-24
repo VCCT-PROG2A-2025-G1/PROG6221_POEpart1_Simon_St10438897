@@ -1,0 +1,26 @@
+C:\Users\simon\OneDrive\Desktop\College Stuff\2025 work\PROG6221\programs\POEpart1\POEpart1\obj\Debug\POEpart1.csproj.AssemblyReference.cache
+C:\Users\simon\OneDrive\Desktop\College Stuff\2025 work\PROG6221\programs\POEpart1\POEpart1\obj\Debug\POEpart1.csproj.CoreCompileInputs.cache
+C:\Users\simon\OneDrive\Desktop\College Stuff\2025 work\PROG6221\programs\POEpart1\POEpart1\bin\Debug\POEpart1.exe.config
+C:\Users\simon\OneDrive\Desktop\College Stuff\2025 work\PROG6221\programs\POEpart1\POEpart1\bin\Debug\POEpart1.exe
+C:\Users\simon\OneDrive\Desktop\College Stuff\2025 work\PROG6221\programs\POEpart1\POEpart1\bin\Debug\POEpart1.pdb
+C:\Users\simon\OneDrive\Desktop\College Stuff\2025 work\PROG6221\programs\POEpart1\POEpart1\obj\Debug\POEpart1.exe
+C:\Users\simon\OneDrive\Desktop\College Stuff\2025 work\PROG6221\programs\POEpart1\POEpart1\obj\Debug\POEpart1.pdb
+C:\work\prog\POEpart1\POEpart1\bin\Debug\POEpart1.exe.config
+C:\work\prog\POEpart1\POEpart1\bin\Debug\POEpart1.exe
+C:\work\prog\POEpart1\POEpart1\bin\Debug\POEpart1.pdb
+C:\work\prog\POEpart1\POEpart1\obj\Debug\POEpart1.csproj.AssemblyReference.cache
+C:\work\prog\POEpart1\POEpart1\obj\Debug\POEpart1.csproj.CoreCompileInputs.cache
+C:\work\prog\POEpart1\POEpart1\obj\Debug\POEpart1.exe
+C:\work\prog\POEpart1\POEpart1\obj\Debug\POEpart1.pdb
+C:\work\prog\POEpart1\POEpart1\obj\Debug\POEpart1.csproj.GenerateResource.cache
+C:\work\prog\POEpart1\POEpart1\obj\Debug\POEpart1.Properties.Resources.resources
+C:\temp work\Programming\to sent\POEpart1\obj\Debug\POEpart1.csproj.AssemblyReference.cache
+C:\temp work\Programming\to sent\POEpart1\obj\Debug\POEpart1.exe.config
+C:\temp work\Programming\to sent\POEpart1\obj\Debug\POEpart1.Properties.Resources.resources
+C:\temp work\Programming\to sent\POEpart1\obj\Debug\POEpart1.csproj.GenerateResource.cache
+C:\temp work\Programming\to sent\POEpart1\obj\Debug\POEpart1.csproj.CoreCompileInputs.cache
+C:\temp work\Programming\to sent\POEpart1\obj\Debug\POEpart1.exe
+C:\temp work\Programming\to sent\POEpart1\obj\Debug\POEpart1.pdb
+C:\temp work\Programming\to sent\POEpart1\bin\Debug\POEpart1.exe.config
+C:\temp work\Programming\to sent\POEpart1\bin\Debug\POEpart1.exe
+C:\temp work\Programming\to sent\POEpart1\bin\Debug\POEpart1.pdb

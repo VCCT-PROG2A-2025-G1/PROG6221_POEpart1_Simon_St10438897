@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\temp work\\Programming\\to sent\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C1ABBC-386B-4AB6-92B5-CA7359650779}|POEpart1\\POEpart1.csproj|C:\\temp work\\Programming\\to sent\\poepart1\\cyberchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C1ABBC-386B-4AB6-92B5-CA7359650779}|POEpart1\\POEpart1.csproj|solutionrelative:poepart1\\cyberchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C1ABBC-386B-4AB6-92B5-CA7359650779}|POEpart1\\POEpart1.csproj|c:\\temp work\\programming\\to sent\\poepart1\\dictionaries\\mainresponces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C1ABBC-386B-4AB6-92B5-CA7359650779}|POEpart1\\POEpart1.csproj|solutionrelative:poepart1\\dictionaries\\mainresponces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C1ABBC-386B-4AB6-92B5-CA7359650779}|POEpart1\\POEpart1.csproj|C:\\temp work\\Programming\\to sent\\poepart1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C1ABBC-386B-4AB6-92B5-CA7359650779}|POEpart1\\POEpart1.csproj|solutionrelative:poepart1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CyberChat.cs",
+              "DocumentMoniker": "C:\\temp work\\Programming\\to sent\\POEpart1\\CyberChat.cs",
+              "RelativeDocumentMoniker": "POEpart1\\CyberChat.cs",
+              "ToolTip": "C:\\temp work\\Programming\\to sent\\POEpart1\\CyberChat.cs",
+              "RelativeToolTip": "POEpart1\\CyberChat.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAqwHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T12:02:32.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\temp work\\Programming\\to sent\\POEpart1\\Program.cs",
+              "RelativeDocumentMoniker": "POEpart1\\Program.cs",
+              "ToolTip": "C:\\temp work\\Programming\\to sent\\POEpart1\\Program.cs",
+              "RelativeToolTip": "POEpart1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T08:30:39.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainResponces.cs",
+              "DocumentMoniker": "C:\\temp work\\Programming\\to sent\\POEpart1\\Dictionaries\\MainResponces.cs",
+              "RelativeDocumentMoniker": "POEpart1\\Dictionaries\\MainResponces.cs",
+              "ToolTip": "C:\\temp work\\Programming\\to sent\\POEpart1\\Dictionaries\\MainResponces.cs",
+              "RelativeToolTip": "POEpart1\\Dictionaries\\MainResponces.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:42:50.008Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
