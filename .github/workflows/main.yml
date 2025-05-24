@@ -23,7 +23,7 @@ jobs:
       run: nuget restore POEpart2/POEpart1.sln  
 
     - name: Build Solution
-      run: msbuild POEpart2/POEpart1.sln /p:configuration-Release
+      run: msbuild POEpart2/POEpart1.sln /p:configuration=Release
 
     - name: Success message
       run: echo "✅ Build completed successfully!"
