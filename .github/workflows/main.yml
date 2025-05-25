@@ -1,29 +1,29 @@
 # .github/workflows/main.yml
 
-name: .NET Framework 4.8 Build
+name: .NET Framework CI
 
 on:
   push:
-    branches: [ "main" ]  # Change if your main branch is called 'master' or another name
+    branches: [ "main" ]  
   pull_request:
     branches: [ "main" ]
 
 jobs:
   build:
-    runs-on: windows-latest  # Required for .NET Framework
+    runs-on: windows-latest  
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
 
     - name: Setup MSBuild
-      uses: microsoft/setup-msbuild@v1.3.1
+      uses: microsoft/setup-msbuild@v2
 
-    - name: Restore NuGet packages (if used)
-      run: nuget restore POEpart1.csproj  # Replace with your actual solution filename
+    - name: Restore NuGet packages
+      run: nuget restore POEpart2/POEpart1.sln  
 
-    - name: Build with MSBuild
-      run: msbuild POEpart1.csproj /p:Configuration=Release
+    - name: Build Solution
+      run: msbuild POEpart2/POEpart1.sln /p:configuration=Release
 
     - name: Success message
       run: echo "✅ Build completed successfully!"
