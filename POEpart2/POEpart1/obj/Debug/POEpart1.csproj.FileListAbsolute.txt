@@ -24,3 +24,13 @@ C:\temp work\Programming\to sent\POEpart1\obj\Debug\POEpart1.pdb
 C:\temp work\Programming\to sent\POEpart1\bin\Debug\POEpart1.exe.config
 C:\temp work\Programming\to sent\POEpart1\bin\Debug\POEpart1.exe
 C:\temp work\Programming\to sent\POEpart1\bin\Debug\POEpart1.pdb
+C:\temp work\Programming\POEpart2\POEpart1\bin\Debug\POEpart1.exe.config
+C:\temp work\Programming\POEpart2\POEpart1\bin\Debug\POEpart1.exe
+C:\temp work\Programming\POEpart2\POEpart1\bin\Debug\POEpart1.pdb
+C:\temp work\Programming\POEpart2\POEpart1\obj\Debug\POEpart1.csproj.AssemblyReference.cache
+C:\temp work\Programming\POEpart2\POEpart1\obj\Debug\POEpart1.exe.config
+C:\temp work\Programming\POEpart2\POEpart1\obj\Debug\POEpart1.Properties.Resources.resources
+C:\temp work\Programming\POEpart2\POEpart1\obj\Debug\POEpart1.csproj.GenerateResource.cache
+C:\temp work\Programming\POEpart2\POEpart1\obj\Debug\POEpart1.csproj.CoreCompileInputs.cache
+C:\temp work\Programming\POEpart2\POEpart1\obj\Debug\POEpart1.exe
+C:\temp work\Programming\POEpart2\POEpart1\obj\Debug\POEpart1.pdb
