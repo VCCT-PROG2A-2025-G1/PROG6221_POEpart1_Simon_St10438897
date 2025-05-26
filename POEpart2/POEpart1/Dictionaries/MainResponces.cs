@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+//References:
+//ChatGPT www.ChatGPT.com
 
 namespace POEpart1.Dictionaries
 {
@@ -354,6 +356,32 @@ namespace POEpart1.Dictionaries
             {"concerned", "I hear your concern. Let’s address it together."},
             {"anxious", "It’s normal to feel anxious about security. I’ll guide you through the essentials."},
             {"overwhelmed", "I understand this can feel overwhelming. We’ll take it one piece at a time."}
+        };
+
+
+
+        //-------------------------------------------------
+        // Memory reminders for topics the user has already asked about
+        public static Dictionary<string, string> memoryValue = new Dictionary<string, string>
+        {
+            { "how are you", "You asked how I was doing earlier—I'm still running smoothly and ready to help!" },
+            { "what is your purpose", "Last time you wondered about my purpose; I exist to guide you through cybersecurity best practices." },
+            { "what can i ask you about", "You wanted to know what you could ask—feel free to quiz me on anything from passwords to firewalls." },
+            { "virus", "I remember we talked about viruses; keep your OS and applications patched to reduce your risk." },
+            { "password", "We discussed passwords before; don’t forget to use long, unique passwords and consider a manager." },
+            { "phishing", "You asked about phishing; always double-check links and sender addresses before clicking." },
+            { "two-factor authentication", "We covered 2FA previously—enabling it adds a powerful extra layer of account protection." },
+            { "malware", "We talked about malware; make sure your antivirus definitions are up to date and scan regularly." },
+            { "vpn", "Recall our VPN chat—on public Wi-Fi, a VPN helps keep your data encrypted and private." },
+            { "firewall", "You asked about firewalls; ensure yours is enabled and configured to block unwanted traffic." },
+            { "ransomware", "We discussed ransomware; maintain offline backups so you can recover if files get encrypted." },
+            { "data encryption", "You were curious about encryption; encrypt sensitive files at rest and use TLS in transit." },
+            { "social engineering", "Remember our social engineering talk; stay vigilant against manipulative techniques." },
+            { "software updates", "We covered software updates; installing patches promptly is one of the best defenses." },
+            { "backup", "You asked about backups; follow the 3-2-1 rule—three copies, two media types, one off-site." },
+            { "password manager", "We discussed password managers; using one helps you create and store strong, unique passwords." },
+            { "strong passwords", "You wanted to know about strong passwords; aim for at least 12 characters with mixed symbols." },
+            { "public wifi", "Recall public Wi-Fi advice—always use a VPN and avoid logging into sensitive accounts without it." }  
         };
 
         //-------------------End of File-------------------

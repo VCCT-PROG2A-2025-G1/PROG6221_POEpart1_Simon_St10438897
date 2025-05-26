@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\temp work\\Programming\\POEpart2\\",
+  "WorkspaceRootPath": "C:\\temp work\\Programming\\PROG6221_POEpart1_Simon_St10438897\\POEpart2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3C1ABBC-386B-4AB6-92B5-CA7359650779}|POEpart1\\POEpart1.csproj|c:\\temp work\\programming\\poepart2\\poepart1\\cyberchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3C1ABBC-386B-4AB6-92B5-CA7359650779}|POEpart1\\POEpart1.csproj|solutionrelative:poepart1\\cyberchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3C1ABBC-386B-4AB6-92B5-CA7359650779}|POEpart1\\POEpart1.csproj|c:\\temp work\\programming\\prog6221_poepart1_simon_st10438897\\poepart2\\poepart1\\dictionaries\\mainresponces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C1ABBC-386B-4AB6-92B5-CA7359650779}|POEpart1\\POEpart1.csproj|solutionrelative:poepart1\\dictionaries\\mainresponces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3C1ABBC-386B-4AB6-92B5-CA7359650779}|POEpart1\\POEpart1.csproj|C:\\temp work\\Programming\\POEpart2\\poepart1\\dictionaries\\mainresponces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3C1ABBC-386B-4AB6-92B5-CA7359650779}|POEpart1\\POEpart1.csproj|solutionrelative:poepart1\\dictionaries\\mainresponces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3C1ABBC-386B-4AB6-92B5-CA7359650779}|POEpart1\\POEpart1.csproj|C:\\temp work\\Programming\\PROG6221_POEpart1_Simon_St10438897\\POEpart2\\poepart1\\cyberchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C1ABBC-386B-4AB6-92B5-CA7359650779}|POEpart1\\POEpart1.csproj|solutionrelative:poepart1\\cyberchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CyberChat.cs",
-              "DocumentMoniker": "C:\\temp work\\Programming\\POEpart2\\POEpart1\\CyberChat.cs",
+              "DocumentMoniker": "C:\\temp work\\Programming\\PROG6221_POEpart1_Simon_St10438897\\POEpart2\\POEpart1\\CyberChat.cs",
               "RelativeDocumentMoniker": "POEpart1\\CyberChat.cs",
-              "ToolTip": "C:\\temp work\\Programming\\POEpart2\\POEpart1\\CyberChat.cs",
+              "ToolTip": "C:\\temp work\\Programming\\PROG6221_POEpart1_Simon_St10438897\\POEpart2\\POEpart1\\CyberChat.cs",
               "RelativeToolTip": "POEpart1\\CyberChat.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAqwKkAAABWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T12:02:32.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T12:02:32.949Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainResponces.cs",
-              "DocumentMoniker": "C:\\temp work\\Programming\\POEpart2\\POEpart1\\Dictionaries\\MainResponces.cs",
+              "DocumentMoniker": "C:\\temp work\\Programming\\PROG6221_POEpart1_Simon_St10438897\\POEpart2\\POEpart1\\Dictionaries\\MainResponces.cs",
               "RelativeDocumentMoniker": "POEpart1\\Dictionaries\\MainResponces.cs",
-              "ToolTip": "C:\\temp work\\Programming\\POEpart2\\POEpart1\\Dictionaries\\MainResponces.cs",
+              "ToolTip": "C:\\temp work\\Programming\\PROG6221_POEpart1_Simon_St10438897\\POEpart2\\POEpart1\\Dictionaries\\MainResponces.cs",
               "RelativeToolTip": "POEpart1\\Dictionaries\\MainResponces.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkBAABnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T11:42:50.008Z",
               "EditorCaption": ""
