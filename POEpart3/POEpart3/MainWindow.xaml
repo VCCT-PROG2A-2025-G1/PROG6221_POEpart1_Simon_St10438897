@@ -1,0 +1,48 @@
+﻿<Window x:Class="POEpart3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:POEpart3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+        <TabItem Header="Chat">
+            <Grid Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <!-- Scrollable list of messages -->
+                <ListBox x:Name="MessagesList"
+             Grid.Row="0"
+             FontFamily="Consolas"
+             IsSynchronizedWithCurrentItem="True" />
+
+                <!-- User input + send button -->
+                <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,10,0,0">
+                    <TextBox x:Name="UserInput"
+               Width="600"
+               KeyDown="UserInput_KeyDown" />
+                    <Button Content="Send"
+              Width="75"
+              Margin="10,0,0,0"
+              Click="Send_Click" />
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <TabItem Header="Tasks">
+            <!-- Task Manager UI -->
+        </TabItem>
+        <TabItem Header="Quiz">
+            <!-- Quiz UI -->
+        </TabItem>
+        <TabItem Header="Activity Log">
+            <!-- Activity Log UI -->
+        </TabItem>
+
+        </TabControl> 
+    </Grid>
+</Window>

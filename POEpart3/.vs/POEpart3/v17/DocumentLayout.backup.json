@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\temp work\\Programming\\POEpart3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|c:\\temp work\\programming\\poepart3\\poepart3\\cyberchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|solutionrelative:poepart3\\cyberchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|C:\\temp work\\Programming\\POEpart3\\poepart3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|solutionrelative:poepart3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|C:\\temp work\\Programming\\POEpart3\\poepart3\\dictionaries\\mainresponces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|solutionrelative:poepart3\\dictionaries\\mainresponces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|C:\\temp work\\Programming\\POEpart3\\poepart3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|solutionrelative:poepart3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|C:\\temp work\\Programming\\POEpart3\\poepart3\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|solutionrelative:poepart3\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|C:\\temp work\\Programming\\POEpart3\\poepart3\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|solutionrelative:poepart3\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\temp work\\Programming\\POEpart3\\POEpart3\\App.xaml",
+              "RelativeDocumentMoniker": "POEpart3\\App.xaml",
+              "ToolTip": "C:\\temp work\\Programming\\POEpart3\\POEpart3\\App.xaml",
+              "RelativeToolTip": "POEpart3\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-25T11:23:49.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\temp work\\Programming\\POEpart3\\POEpart3\\App.config",
+              "RelativeDocumentMoniker": "POEpart3\\App.config",
+              "ToolTip": "C:\\temp work\\Programming\\POEpart3\\POEpart3\\App.config",
+              "RelativeToolTip": "POEpart3\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-25T11:23:44.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\temp work\\Programming\\POEpart3\\POEpart3\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "POEpart3\\MainWindow.xaml",
+              "ToolTip": "C:\\temp work\\Programming\\POEpart3\\POEpart3\\MainWindow.xaml",
+              "RelativeToolTip": "POEpart3\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-25T10:33:16.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\temp work\\Programming\\POEpart3\\POEpart3\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "POEpart3\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\temp work\\Programming\\POEpart3\\POEpart3\\MainWindow.xaml.cs",
+              "RelativeToolTip": "POEpart3\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T10:33:14.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CyberChat.cs",
+              "DocumentMoniker": "C:\\temp work\\Programming\\POEpart3\\POEpart3\\CyberChat.cs",
+              "RelativeDocumentMoniker": "POEpart3\\CyberChat.cs",
+              "ToolTip": "C:\\temp work\\Programming\\POEpart3\\POEpart3\\CyberChat.cs",
+              "RelativeToolTip": "POEpart3\\CyberChat.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAQwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T10:37:07.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainResponces.cs",
+              "DocumentMoniker": "C:\\temp work\\Programming\\POEpart3\\POEpart3\\Dictionaries\\MainResponces.cs",
+              "RelativeDocumentMoniker": "POEpart3\\Dictionaries\\MainResponces.cs",
+              "ToolTip": "C:\\temp work\\Programming\\POEpart3\\POEpart3\\Dictionaries\\MainResponces.cs",
+              "RelativeToolTip": "POEpart3\\Dictionaries\\MainResponces.cs",
+              "ViewState": "AgIAAFEBAAAAAAAAAAAAAGwBAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T10:53:12.948Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

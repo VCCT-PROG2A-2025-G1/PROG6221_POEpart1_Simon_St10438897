@@ -1,0 +1,16 @@
+C:\temp work\Programming\POEpart3\POEpart3\obj\Debug\POEpart3.csproj.AssemblyReference.cache
+C:\temp work\Programming\POEpart3\POEpart3\obj\Debug\MainWindow.g.cs
+C:\temp work\Programming\POEpart3\POEpart3\obj\Debug\App.g.cs
+C:\temp work\Programming\POEpart3\POEpart3\obj\Debug\POEpart3_MarkupCompile.cache
+C:\temp work\Programming\POEpart3\POEpart3\obj\Debug\POEpart3_MarkupCompile.lref
+C:\temp work\Programming\POEpart3\POEpart3\bin\Debug\POEpart3.exe.config
+C:\temp work\Programming\POEpart3\POEpart3\bin\Debug\POEpart3.exe
+C:\temp work\Programming\POEpart3\POEpart3\bin\Debug\POEpart3.pdb
+C:\temp work\Programming\POEpart3\POEpart3\obj\Debug\MainWindow.baml
+C:\temp work\Programming\POEpart3\POEpart3\obj\Debug\POEpart3.g.resources
+C:\temp work\Programming\POEpart3\POEpart3\obj\Debug\POEpart3.Properties.Resources.resources
+C:\temp work\Programming\POEpart3\POEpart3\obj\Debug\POEpart3.csproj.GenerateResource.cache
+C:\temp work\Programming\POEpart3\POEpart3\obj\Debug\POEpart3.csproj.CoreCompileInputs.cache
+C:\temp work\Programming\POEpart3\POEpart3\obj\Debug\POEpart3.exe
+C:\temp work\Programming\POEpart3\POEpart3\obj\Debug\POEpart3.pdb
+C:\temp work\Programming\POEpart3\POEpart3\obj\Debug\POEpart3.exe.config
