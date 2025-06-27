@@ -88,12 +88,12 @@ cd CybersecurityAwarenessBot
 
 ---
 
-\$1
+
 
 ## Demo Video
 
 📺 [Video Presentation](https://youtu.be/IL3Xvdfpg6c)
 
-\$2
 
-*Last updated: 2025-06-27*
+
+
