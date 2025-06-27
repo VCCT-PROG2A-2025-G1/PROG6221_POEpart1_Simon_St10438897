@@ -14,20 +14,30 @@ namespace POEpart3
 {
     public partial class MainWindow : Window
     {
+        //ChatGPT generated this
         enum ChatState { EnterName, AskQuestion, AwaitingReminder, AskMoreDetails, AskAnother }
+
         private readonly CyberChat _bot = new CyberChat();
         private string userName;
         private readonly Random _rng = new Random();
         private ChatState _state = ChatState.EnterName;
         private string _lastTopicKey;
+
+        //ChatGPT generated this
         public ObservableCollection<TaskItem> Tasks { get; } = new ObservableCollection<TaskItem>();
         private TaskItem _pendingTask;
         private List<Question> _questions;
         private int _currentQuestionIndex = 0; 
-        private int _score = 0;               
+        private int _score = 0;
+
+        //ChatGPT generated this
         private Question CurrentQuestion => _questions[_currentQuestionIndex];
 
+        //ChatGPT generated this
+        public ObservableCollection<logEntry> ActivityLog { get; } = new ObservableCollection<logEntry>();
 
+
+        //-------------------------------------------------------------------------------
 
         public MainWindow()
         {
@@ -39,6 +49,7 @@ namespace POEpart3
             LoadQuestion();
             Loaded += MainWindow_Loaded;
         }
+        //-------------------------------------------------------------------------------
         //ChatGPT generated questions
         private void PopulateQuestions()
         {
@@ -143,6 +154,7 @@ namespace POEpart3
 
             };
         }
+        //-------------------------------------------------------------------------------
         private void LoadQuestion()
         {
             QuizProgressText.Text = $"Question {_currentQuestionIndex + 1} of {_questions.Count}";
@@ -168,10 +180,11 @@ namespace POEpart3
             SubmitButton.IsEnabled = true;
 
         }
-        
+        //-------------------------------------------------------------------------------
         private void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
-            //_bot.PlaySound("IntroSound.wav");
+            //Play sound on startup
+            _bot.PlaySound("IntroSound.wav");
 
             // Show ASCII logo
             foreach (var line in _bot.GetLogoLines()) 
@@ -181,12 +194,12 @@ namespace POEpart3
             
             MessagesList.Items.Add("Bot: Please enter your name:");
         }
-
+        //-------------------------------------------------------------------------------
         private void Send_Click(object sender, RoutedEventArgs e)
         {
             ProcessInput();
-        } 
-
+        }
+        //-------------------------------------------------------------------------------
         private void UserInput_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.Key == Key.Enter)
@@ -194,7 +207,7 @@ namespace POEpart3
                 ProcessInput();
             }    
         }
-
+        //-------------------------------------------------------------------------------
         private void ProcessInput()
         {
             var text = UserInput.Text.Trim();
@@ -207,6 +220,7 @@ namespace POEpart3
             MessagesList.Items.Add($"You: {text}");
             UserInput.Clear();
 
+            //ChatGPT helped make this switch statement
             switch (_state)
             {
                 case ChatState.EnterName:
@@ -217,9 +231,9 @@ namespace POEpart3
                     break;
 
                 case ChatState.AskQuestion:
-                    if (text.StartsWith("add task ", StringComparison.OrdinalIgnoreCase))
+                    if (text.StartsWith("add task", StringComparison.OrdinalIgnoreCase))
                     {
-                        var remainder = text.Substring(9).Trim();  
+                        var remainder = text.Trim();  
                         
                         var matchKey = MainResponces.responses.Keys.FirstOrDefault(k => remainder.ToLower().Contains(k));
                         if (matchKey == null)
@@ -227,15 +241,12 @@ namespace POEpart3
                             MessagesList.Items.Add($"Bot: Sorry {userName}, I don't recognize that topic. Please try again.");
                             break;
                         }
-
                         
                         var title = remainder;
-
-                        
                         var options = MainResponces.responses[matchKey];
                         var description = options[_rng.Next(options.Length)];
 
-                        
+                        //ChatGPT helped make this code
                         var task = new TaskItem
                         {
                             Title = title,
@@ -243,10 +254,11 @@ namespace POEpart3
                             Schedule = "",
                             Completed = false
                         };
+
                         Tasks.Add(task);
                         _pendingTask = task;
+                        LogAction($"Task added: '{title}' with description '{description}'");
 
-                        
                         MessagesList.Items.Add($"Bot: Task added with the description \"{description}\".");
                         MessagesList.Items.Add("Bot: Would you like a reminder? (no or e.g. 3 days)");
                         _state = ChatState.AwaitingReminder;
@@ -291,13 +303,15 @@ namespace POEpart3
                     if (text.Equals("no", StringComparison.OrdinalIgnoreCase) || text.Equals("n", StringComparison.OrdinalIgnoreCase))
                     {
                         MessagesList.Items.Add("Bot: Got it! Task added!");
+                        MessagesList.Items.Add("Bot: Please ask another question.");
                         _pendingTask = null;
                         _state = ChatState.AskQuestion;
                     }
                     else
                     {
-                        
+                        //ChatGPT helped make this code
                         var m = Regex.Match(text, @"^(\d+)\s*(day|days|week|weeks|month|months|year|years)$", RegexOptions.IgnoreCase);
+
                         if (m.Success)
                         {
                             var count = m.Groups[1].Value;
@@ -305,7 +319,9 @@ namespace POEpart3
 
                             
                             _pendingTask.Schedule = $"{count} {unit}";
+                            LogAction($"Reminder set for task '{_pendingTask.Title}' in {count} {unit}.");
                             MessagesList.Items.Add($"Bot: Got it! I'll remind you in {count} {unit}.");
+                            MessagesList.Items.Add("Bot: Please ask another question.");
                             _pendingTask = null;
                             _state = ChatState.AskQuestion;
                         }
@@ -320,7 +336,9 @@ namespace POEpart3
                 case ChatState.AskMoreDetails:
                     if (text.Equals("yes", StringComparison.OrdinalIgnoreCase))
                     {
+                        //ChatGPT helped make this code
                         var details = MainResponces.followUp[_lastTopicKey][_rng.Next(MainResponces.followUp[_lastTopicKey].Length)];
+
                         MessagesList.Items.Add($"Bot: More details on {_lastTopicKey}: {details}");
                     }
                     
@@ -351,24 +369,37 @@ namespace POEpart3
                     break;
             }
 
+
+            //ChatGPT helped make this code
             MessagesList.ScrollIntoView(MessagesList.Items[MessagesList.Items.Count - 1]);
         }
+        //-------------------------------------------------------------------------------
         private void DeleteTask_Click(object sender, RoutedEventArgs e)
         {
-            
+            //ChatGPT helped make this code
             if (sender is Button btn && btn.Tag is TaskItem toRemove)
             {
                 Tasks.Remove(toRemove);
             }
         }
 
-        
-
+        //-------------------------------------------------------------------------------
+        private void LogAction(string description)
+        {
+            ActivityLog.Insert(0, new logEntry { Timestamp = DateTime.Now, Description = description });
+            
+            if (ActivityLog.Count > 10)
+            {
+                ActivityLog.RemoveAt(ActivityLog.Count - 1);
+            }
+                
+        }
+        //-------------------------------------------------------------------------------
         private void SubmitButton_Click(object sender, RoutedEventArgs e)
         {
             string selected = null;
 
-            
+            //ChatGPT helped make this code
             var rb = OptionsPanel.Children.OfType<RadioButton>().FirstOrDefault(r => r.IsChecked == true);
 
             if (rb != null)
@@ -398,7 +429,7 @@ namespace POEpart3
             SubmitButton.IsEnabled = false;
             NextButton.Visibility = Visibility.Visible;
         }
-        
+        //-------------------------------------------------------------------------------
         private void NextButton_Click(object sender, RoutedEventArgs e)
         {
             _currentQuestionIndex++;
@@ -409,6 +440,7 @@ namespace POEpart3
             }
             else
             {
+                LogAction($"Quiz completed with score {_score} out of {_questions.Count}.");
                 QuizProgressText.Text += $"\nQuiz complete! Your score: {_score} out of {_questions.Count}.";
                 QuestionText.Visibility = Visibility.Collapsed;
                 OptionsPanel.Visibility = Visibility.Collapsed;
@@ -417,7 +449,7 @@ namespace POEpart3
                 NextButton.Visibility = Visibility.Collapsed;
             }
         }
-
+        //End of File----------------------------------------------------------------------
     }
 
 

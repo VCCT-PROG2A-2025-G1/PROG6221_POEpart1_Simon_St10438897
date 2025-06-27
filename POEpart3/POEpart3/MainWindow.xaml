@@ -34,7 +34,7 @@
                 </Grid>
             </TabItem>
             <TabItem Header="Tasks" Height="20" VerticalAlignment="Top">
-                <DataGrid x:Name="TasksDataGrid" CanUserAddRows="False" ItemsSource="{Binding Tasks}" Margin="10">
+                <DataGrid x:Name="TasksDataGrid" AutoGenerateColumns="False" CanUserAddRows="False" ItemsSource="{Binding Tasks}" Margin="10">
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="Title" Binding="{Binding Title}" Width="2*" />
 
@@ -92,8 +92,18 @@
             </TabItem>
 
             <TabItem Header="Activity Log">
-                <!-- Activity Log UI -->
+                <Grid Margin="10">
+                    <DataGrid x:Name="ActivityDataGrid" AutoGenerateColumns="False" CanUserAddRows="False" IsReadOnly="True" ItemsSource="{Binding ActivityLog}">
+                        <DataGrid.Columns>
+                            <!-- Timestamp column -->
+                            <DataGridTextColumn Header="Time" Binding="{Binding Timestamp, StringFormat=T}" Width="100"/>
+                            <!-- Description column -->
+                            <DataGridTextColumn Header="Action" Binding="{Binding Description}" Width="*"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
             </TabItem>
+
 
         </TabControl>
     </Grid>

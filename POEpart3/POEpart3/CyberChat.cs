@@ -32,8 +32,8 @@ namespace POEpart3
                 
             }
         }
+        //-------------------------------------------------------------------------------
 
-       
         public IEnumerable<string> GetLogoLines()
         {
             var logo = @"  ____            _                  _                 
@@ -47,10 +47,10 @@ namespace POEpart3
             return logo.Split(new[] { Environment.NewLine }, StringSplitOptions.None).Where(l => l != "");
         }
 
-        
+        //-------------------------------------------------------------------------------
         public void SetName(string userName) => name = userName;
 
-        
+        //-------------------------------------------------------------------------------
         public string Ask(string rawQuestion)
         {
             
@@ -119,9 +119,11 @@ namespace POEpart3
 
             return $"I'm sorry {name}, I don't have an answer for that.";
         }
+        //-------------------------------------------------------------------------------
         public string[] GetFollowUpOptions(string key)
         {
             return MainResponces.followUp.TryGetValue(key, out var opts) ? opts : Array.Empty<string>();
         }
+        //----------------------End Of File----------------------------------------------
     }
 }
