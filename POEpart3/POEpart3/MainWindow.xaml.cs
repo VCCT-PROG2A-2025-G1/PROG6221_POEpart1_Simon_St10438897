@@ -1,9 +1,9 @@
 ﻿using POEpart3.Dictionaries;
 using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;    // ← for Tasks collection
+using System.Collections.ObjectModel;    
 using System.Linq;
-using System.Text.RegularExpressions;    // ← added for timeframe parsing
+using System.Text.RegularExpressions;    
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
@@ -231,9 +231,9 @@ namespace POEpart3
                     break;
 
                 case ChatState.AskQuestion:
-                    if (text.StartsWith("add task", StringComparison.OrdinalIgnoreCase))
+                    if (text.StartsWith("add task ", StringComparison.OrdinalIgnoreCase))
                     {
-                        var remainder = text.Trim();  
+                        var remainder = text.Substring(9).Trim();  
                         
                         var matchKey = MainResponces.responses.Keys.FirstOrDefault(k => remainder.ToLower().Contains(k));
                         if (matchKey == null)
