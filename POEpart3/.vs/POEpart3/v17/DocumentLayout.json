@@ -1,29 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\temp work\\Programming\\PROG6221_POEpart1_Simon_St10438897\\POEpart3\\",
+  "WorkspaceRootPath": "C:\\temp work\\Programming\\POEpart3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|C:\\temp work\\Programming\\PROG6221_POEpart1_Simon_St10438897\\POEpart3\\poepart3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|solutionrelative:poepart3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|c:\\temp work\\programming\\prog6221_poepart1_simon_st10438897\\poepart3\\poepart3\\cyberchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|solutionrelative:poepart3\\cyberchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|C:\\temp work\\Programming\\PROG6221_POEpart1_Simon_St10438897\\POEpart3\\poepart3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|c:\\temp work\\programming\\poepart3\\poepart3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|solutionrelative:poepart3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|C:\\temp work\\Programming\\PROG6221_POEpart1_Simon_St10438897\\POEpart3\\poepart3\\dictionaries\\mainresponces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|C:\\temp work\\Programming\\POEpart3\\poepart3\\cyberchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|solutionrelative:poepart3\\cyberchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|C:\\temp work\\Programming\\POEpart3\\poepart3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|solutionrelative:poepart3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|C:\\temp work\\Programming\\POEpart3\\poepart3\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|solutionrelative:poepart3\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|C:\\temp work\\Programming\\POEpart3\\poepart3\\dictionaries\\mainresponces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|solutionrelative:poepart3\\dictionaries\\mainresponces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|C:\\temp work\\Programming\\PROG6221_POEpart1_Simon_St10438897\\POEpart3\\poepart3\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|C:\\temp work\\Programming\\POEpart3\\poepart3\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|solutionrelative:poepart3\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|C:\\temp work\\Programming\\POEpart3\\poepart3\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|solutionrelative:poepart3\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|C:\\temp work\\Programming\\PROG6221_POEpart1_Simon_St10438897\\POEpart3\\poepart3\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|C:\\temp work\\Programming\\POEpart3\\poepart3\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6E4E4663-581A-4225-8DE6-8642448BE6A5}|POEpart3\\POEpart3.csproj|solutionrelative:poepart3\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -34,26 +42,52 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\temp work\\Programming\\PROG6221_POEpart1_Simon_St10438897\\POEpart3\\POEpart3\\App.xaml",
-              "RelativeDocumentMoniker": "POEpart3\\App.xaml",
-              "ToolTip": "C:\\temp work\\Programming\\PROG6221_POEpart1_Simon_St10438897\\POEpart3\\POEpart3\\App.xaml",
-              "RelativeToolTip": "POEpart3\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-25T11:23:49.172Z"
+              "DocumentIndex": 3,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\temp work\\Programming\\POEpart3\\POEpart3\\Question.cs",
+              "RelativeDocumentMoniker": "POEpart3\\Question.cs",
+              "ToolTip": "C:\\temp work\\Programming\\POEpart3\\POEpart3\\Question.cs",
+              "RelativeToolTip": "POEpart3\\Question.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T16:38:46.778Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\temp work\\Programming\\POEpart3\\POEpart3\\TaskItem.cs",
+              "RelativeDocumentMoniker": "POEpart3\\TaskItem.cs",
+              "ToolTip": "C:\\temp work\\Programming\\POEpart3\\POEpart3\\TaskItem.cs",
+              "RelativeToolTip": "POEpart3\\TaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T13:23:05.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\temp work\\Programming\\POEpart3\\POEpart3\\App.xaml",
+              "RelativeDocumentMoniker": "POEpart3\\App.xaml",
+              "ToolTip": "C:\\temp work\\Programming\\POEpart3\\POEpart3\\App.xaml",
+              "RelativeToolTip": "POEpart3\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-25T11:23:49.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "App.config",
-              "DocumentMoniker": "C:\\temp work\\Programming\\PROG6221_POEpart1_Simon_St10438897\\POEpart3\\POEpart3\\App.config",
+              "DocumentMoniker": "C:\\temp work\\Programming\\POEpart3\\POEpart3\\App.config",
               "RelativeDocumentMoniker": "POEpart3\\App.config",
-              "ToolTip": "C:\\temp work\\Programming\\PROG6221_POEpart1_Simon_St10438897\\POEpart3\\POEpart3\\App.config",
+              "ToolTip": "C:\\temp work\\Programming\\POEpart3\\POEpart3\\App.config",
               "RelativeToolTip": "POEpart3\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
@@ -61,11 +95,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\temp work\\Programming\\PROG6221_POEpart1_Simon_St10438897\\POEpart3\\POEpart3\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\temp work\\Programming\\POEpart3\\POEpart3\\MainWindow.xaml",
               "RelativeDocumentMoniker": "POEpart3\\MainWindow.xaml",
-              "ToolTip": "C:\\temp work\\Programming\\PROG6221_POEpart1_Simon_St10438897\\POEpart3\\POEpart3\\MainWindow.xaml",
+              "ToolTip": "C:\\temp work\\Programming\\POEpart3\\POEpart3\\MainWindow.xaml",
               "RelativeToolTip": "POEpart3\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-06-25T10:33:16.094Z",
@@ -73,40 +107,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\temp work\\Programming\\PROG6221_POEpart1_Simon_St10438897\\POEpart3\\POEpart3\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\temp work\\Programming\\POEpart3\\POEpart3\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "POEpart3\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\temp work\\Programming\\PROG6221_POEpart1_Simon_St10438897\\POEpart3\\POEpart3\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\temp work\\Programming\\POEpart3\\POEpart3\\MainWindow.xaml.cs",
               "RelativeToolTip": "POEpart3\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAHkBAAAAAAAAAAAQwI0BAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T10:33:14.003Z"
+              "WhenOpened": "2025-06-25T10:33:14.003Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "CyberChat.cs",
-              "DocumentMoniker": "C:\\temp work\\Programming\\PROG6221_POEpart1_Simon_St10438897\\POEpart3\\POEpart3\\CyberChat.cs",
+              "DocumentMoniker": "C:\\temp work\\Programming\\POEpart3\\POEpart3\\CyberChat.cs",
               "RelativeDocumentMoniker": "POEpart3\\CyberChat.cs",
-              "ToolTip": "C:\\temp work\\Programming\\PROG6221_POEpart1_Simon_St10438897\\POEpart3\\POEpart3\\CyberChat.cs",
+              "ToolTip": "C:\\temp work\\Programming\\POEpart3\\POEpart3\\CyberChat.cs",
               "RelativeToolTip": "POEpart3\\CyberChat.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAQwFIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T10:37:07.977Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainResponces.cs",
-              "DocumentMoniker": "C:\\temp work\\Programming\\PROG6221_POEpart1_Simon_St10438897\\POEpart3\\POEpart3\\Dictionaries\\MainResponces.cs",
+              "DocumentMoniker": "C:\\temp work\\Programming\\POEpart3\\POEpart3\\Dictionaries\\MainResponces.cs",
               "RelativeDocumentMoniker": "POEpart3\\Dictionaries\\MainResponces.cs",
-              "ToolTip": "C:\\temp work\\Programming\\PROG6221_POEpart1_Simon_St10438897\\POEpart3\\POEpart3\\Dictionaries\\MainResponces.cs",
+              "ToolTip": "C:\\temp work\\Programming\\POEpart3\\POEpart3\\Dictionaries\\MainResponces.cs",
               "RelativeToolTip": "POEpart3\\Dictionaries\\MainResponces.cs",
-              "ViewState": "AgIAAFEBAAAAAAAAAAAAAGwBAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAHQBAAAAAAAAAAAAAIIBAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T10:53:12.948Z"
+              "WhenOpened": "2025-06-25T10:53:12.948Z",
+              "EditorCaption": ""
             }
           ]
         }

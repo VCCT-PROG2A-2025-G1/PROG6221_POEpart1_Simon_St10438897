@@ -8,41 +8,93 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <TabControl>
-        <TabItem Header="Chat">
-            <Grid Margin="10">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="Auto" />
-                </Grid.RowDefinitions>
+            <TabItem Header="Chat">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
 
-                <!-- Scrollable list of messages -->
-                <ListBox x:Name="MessagesList"
-             Grid.Row="0"
-             FontFamily="Consolas"
-             IsSynchronizedWithCurrentItem="True" />
+                    
+                    <ListBox x:Name="MessagesList"
+                        Grid.Row="0"
+                        FontFamily="Consolas"
+                        IsSynchronizedWithCurrentItem="True" />
 
-                <!-- User input + send button -->
-                <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,10,0,0">
-                    <TextBox x:Name="UserInput"
-               Width="600"
-               KeyDown="UserInput_KeyDown" />
-                    <Button Content="Send"
-              Width="75"
-              Margin="10,0,0,0"
-              Click="Send_Click" />
-                </StackPanel>
-            </Grid>
-        </TabItem>
-        <TabItem Header="Tasks">
-            <!-- Task Manager UI -->
-        </TabItem>
-        <TabItem Header="Quiz">
-            <!-- Quiz UI -->
-        </TabItem>
-        <TabItem Header="Activity Log">
-            <!-- Activity Log UI -->
-        </TabItem>
+                    
+                    <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,10,0,0">
+                        <TextBox x:Name="UserInput"
+                            Width="600"
+                            KeyDown="UserInput_KeyDown" />
+                        <Button Content="Send"
+                            Width="75"
+                            Margin="10,0,0,0"
+                            Click="Send_Click" />
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Tasks" Height="20" VerticalAlignment="Top">
+                <DataGrid x:Name="TasksDataGrid" CanUserAddRows="False" ItemsSource="{Binding Tasks}" Margin="10">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Title" Binding="{Binding Title}" Width="2*" />
 
-        </TabControl> 
+                        <DataGridTextColumn Header="Description" Binding="{Binding Prompt}" Width="3*" />
+
+                        <DataGridTextColumn Header="Reminder" Binding="{Binding Schedule}" Width="2*" />
+
+                        <DataGridCheckBoxColumn Header="Completed" Binding="{Binding Completed, Mode=TwoWay}" Width="Auto" />
+
+                        <DataGridTemplateColumn Header="Delete" Width="Auto">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Content="Delete" Click="DeleteTask_Click" Tag="{Binding}" />
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+
+            <TabItem Header="Quiz">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock
+                        x:Name="QuizProgressText" Grid.Row="0" FontWeight="Bold" Text="Question 1 of 10"/>
+
+                    <TextBlock
+                        x:Name="QuestionText" Grid.Row="1" Margin="0,5" TextWrapping="Wrap" Text=""/>
+
+                    <StackPanel
+                        x:Name="OptionsPanel" Grid.Row="2" Margin="0,5">
+                        <RadioButton x:Name="OptionARadio" GroupName="QuizOptions" Margin="0,2"/>
+                        <RadioButton x:Name="OptionBRadio" GroupName="QuizOptions" Margin="0,2"/>
+                        <RadioButton x:Name="OptionCRadio" GroupName="QuizOptions" Margin="0,2"/>
+                        <RadioButton x:Name="OptionDRadio" GroupName="QuizOptions" Margin="0,2"/>
+                    </StackPanel>
+
+                    
+                    <StackPanel Grid.Row="3" Orientation="Horizontal" Margin="0,10,0,0">
+                        <Button x:Name="SubmitButton" Content="Submit" Width="75" Click="SubmitButton_Click"/>
+                        <Button x:Name="NextButton" Content="Next" Width="75" Margin="10,0,0,0" Click="NextButton_Click" Visibility="Collapsed"/>
+                    </StackPanel>
+
+                    
+                    <TextBlock
+                        x:Name="FeedbackText" Grid.Row="4" Margin="0,10,0,0" FontStyle="Italic"/>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Activity Log">
+                <!-- Activity Log UI -->
+            </TabItem>
+
+        </TabControl>
     </Grid>
 </Window>

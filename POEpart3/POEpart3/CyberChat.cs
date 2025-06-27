@@ -5,9 +5,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Media;
 using System.Text.RegularExpressions;
-
+//References
+//ChatGPT - www.chatgpt.com
 namespace POEpart3
 {
+    //ChatGPT helped with the implementation of the CyberChat class and its methods into this project.
     public class CyberChat
     {
         
