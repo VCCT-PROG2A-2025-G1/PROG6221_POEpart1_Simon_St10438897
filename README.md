@@ -68,7 +68,7 @@ A WPF desktop application designed to educate users on cybersecurity best practi
 
 ```bash
 # Clone the repository
-git clone https://github.com/<username>/CybersecurityAwarenessBot.git
+git clone https://github.com/VCCT-PROG2A-2025-G1/PROG6221_POEpart1_Simon_St10438897.git
 cd CybersecurityAwarenessBot
 ```
 
